@@ -1,0 +1,196 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(0, 0, 0);
+    box-sizing: border-box;
+}
+
+
+
+.ima{
+    width: 50px;
+    height: 50px;
+    
+
+}
+h1{
+    color: rgb(207, 151, 56);
+    text-shadow: 3px 3px 3px rgb(138, 118, 13);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-align: center;
+    text-indent: 2px;
+    
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(32, 34, 36);
+    margin: 0;
+    padding: 4px 0 3px 0;
+
+}
+.nav{
+    background-color: rgba(67, 67, 67, 0.812);
+    
+    
+}
+
+#lis{
+    text-align: center;
+    margin: 0%;
+}
+
+#lis li{
+    
+    display: inline-block;
+
+    
+}
+a{
+    text-decoration: none;
+    color:rgb(207, 151, 56);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    padding:10px 60px;
+    display: block;
+    
+}
+a:hover{
+    background-color: rgb(225, 188, 122);
+    border-radius: 5px;
+    color: rgb(12, 12, 12);
+    
+}
+.footer{
+    height: 50px;
+    padding-top: 3px;
+    position: relative;
+    width: 1490px;
+    bottom: 0%;
+    background-color: rgba(105, 84, 30, 0.327);
+    word-spacing: 3px;
+    color: antiquewhite;
+    padding-left: 20px;
+    
+    
+}
+#offer{
+    display: block;
+
+}
+#title{
+    position: absolute;
+    display: block;
+    left: 700px;
+    
+}
+@keyframes colorchange{
+    100%{
+        color: rgb(255, 236, 96);
+    }
+}
+h3{
+    color:rgba(201, 139, 57, 0.77);
+    font-size: 2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    animation: colorchange 1s linear infinite;
+}
+#block{
+    
+    margin: 2px 2px;
+    padding: 10px 10px;
+}
+#blog1{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 2px 20px 2px ;
+    width: 100%;
+    background-color: rgba(240, 255, 255, 0.341);
+    border-radius: 4px;
+
+    
+    
+    
+}
+#blog2{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 2px 20px 2px ;
+    width: 100%;
+    background-color: rgba(240, 255, 255, 0.341);
+    border-radius: 4px;
+}
+#blog3{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 2px 0px 2px ;
+    width: 100%;
+    background-color: rgba(240, 255, 255, 0.341);
+    border-radius: 4px;
+}
+#image{
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+    padding-top: 4px;
+    padding-left: 50px;
+    
+
+}
+#image2{
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+    padding-top: 4px;
+    padding-left: 50%;
+    
+
+}
+#imag{
+    width: 100%;
+    height: auto;
+}
+
+#list{
+    position: absolute;
+    margin: 10px;
+    padding-left: 650px;
+    width: 400px;
+}
+#list2{
+    position: absolute;
+    margin: 10px;
+    padding-right: 750px;
+    width: 400px;
+}
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    color: rgb(182, 155, 18);
+    font-style: italic;
+}
+#items{
+    color: rgb(245, 243, 228);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    list-style: square;
+}
+span{
+    color: rgb(243, 203, 59);
+}
+#detail{
+    color: antiquewhite;
+}

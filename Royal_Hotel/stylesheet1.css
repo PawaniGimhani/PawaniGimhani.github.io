@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,900;1,400;1,900&display=swap');
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgba(7, 6, 95, 0.748);
+    
+}
+
+.background::before{
+    content: "";
+    background-image:url(home1.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: absolute;
+    top: 128px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.7;
+    
+
+}
+
+.ima{
+    width: 50px;
+    height: 50px;
+    
+
+}
+h1{
+    color: rgb(207, 151, 56);
+    text-shadow: 3px 3px 3px rgb(138, 118, 13);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-align: center;
+    text-indent: 2px;
+    
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(32, 34, 36);
+    margin: 0;
+    padding: 4px 0 3px 0;
+
+}
+.nav{
+    background-color: rgba(67, 67, 67, 0.812);
+    
+    
+}
+
+ul{
+    text-align: center;
+    margin: 0%;
+}
+
+ul li{
+    
+    display: inline-block;
+
+    
+}
+a{
+    text-decoration: none;
+    color:rgb(207, 151, 56);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    padding:10px 60px;
+    display: block;
+    
+}
+a:hover{
+    background-color: rgb(225, 188, 122);
+    border-radius: 5px;
+    color: rgb(12, 12, 12);
+    
+}
+.footer{
+    padding-left: 30px;
+    position: fixed;
+    width: 100%;
+    bottom: 0%;
+    background-color: rgba(105, 84, 30, 0.327);
+    word-spacing: 3px;
+    color: antiquewhite;
+}
+.wel{
+    position: absolute;
+    top:250px;
+    left: 500px;
+    font-size: 6rem;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+    color: transparent;
+    background-image: linear-gradient(rgb(255, 212, 138),rgb(225, 188, 122));
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -550px 0;
+    animation: welcoming 4s linear infinite;
+
+
+}
+
+@keyframes welcoming{
+    100%
+    {background-position: 0 0 ;}
+}
